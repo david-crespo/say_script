@@ -1,4 +1,4 @@
-say_script
+Say Theater
 ==========
 
 A simple Python 2 script to convert a dialogue script into a series of 'say' commands with different voices.
