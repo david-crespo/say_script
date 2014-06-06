@@ -7,8 +7,10 @@ Conveniently, all Macs come with Python 2 preinstalled, so this script can be us
 
 ### Usage
 
-1. Run, e.g., `python SayScript.py foo.txt` in the Terminal. This will produce a shell script called `foo.txt.out` which already has the appropriate permissions.
-2. Then just run `./foo.txt.out` to hear the play acted out by the `say` command.
+1. Download `SayScript.py` and `demo_script.txt` and put them in the same folder, e.g., your desktop.
+2. Open Terminal and use `cd` to get to that folder, e.g., `cd ~/Desktop`.
+3. Run `python SayScript.py demo_script.txt` in the Terminal. This will produce a shell script called `demo_script.txt.out` which already has the appropriate permissions.
+4. Then just run `./foo.txt.out` to hear the play acted out by the `say` command.
 
 ### Sample input (from demo_script.txt)
 
