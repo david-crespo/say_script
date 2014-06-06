@@ -1,14 +1,14 @@
 Say Theater
 ==========
 
-A simple Python 2 script to convert a dialogue script into a series of 'say' commands with different voices.
+A simple Python 2 script to convert a dialogue script into a series of `say` commands with different voices.
 
-Conveniently, all Macs come with Python 2 preinstalled, so this script can be used by any Mac user.
+Conveniently, all Macs come with Python 2 preinstalled, so this script can be used by any Mac user. [This article](http://www.maclife.com/article/columns/terminal_101_making_your_mac_talk_%E2%80%9Csay%E2%80%9D) is a good overview of the `say` command and has a good list of the available voices.
 
 ### Usage
 
 1. Run, e.g., `python SayScript.py foo.txt` in the Terminal. This will produce a shell script called `foo.txt.out` which already has the appropriate permissions.
-2. Then just run `./foo.txt.out` to hear the play acted out by the say command.
+2. Then just run `./foo.txt.out` to hear the play acted out by the `say` command.
 
 ### Sample input (from demo_script.txt)
 
