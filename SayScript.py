@@ -41,7 +41,7 @@ def main(filename):
             else:
                 errorQuit(voice_parse_error, (lineNumber))
         else:
-            splits = line.strip().split(": ")
+            splits = line.strip().split(": ", 1)
             if len(splits) == 2:
                 name = splits[0]
                 dialogue = splits[1].replace("\"", "")
