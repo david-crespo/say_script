@@ -44,7 +44,7 @@ def main(filename):
             splits = line.strip().split(": ")
             if len(splits) == 2:
                 name = splits[0]
-                dialogue = splits[1].replace("\"", "").replace("'", "")
+                dialogue = splits[1].replace("\"", "")
                 voice = voices.get(name)
                 if not voice:
                     errorQuit(dialog_name_error, (lineNumber, name))

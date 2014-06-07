@@ -7,8 +7,7 @@ Conveniently, all Macs come with Python 2 preinstalled, so this script can be us
 
 ### Usage
 
-`python SayScript.py <filename>`, then
-`./<filename>`.
+`python SayScript.py <filename>`, then `./<filename>.out`.
 
 More specifically:
 
